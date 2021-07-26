@@ -33,8 +33,10 @@ void loop()
     lcd.print("ALERT");
     delay(1000);
     lcd.clear();
+    lcd.setCursor(0,0);
+    lcd.print("PLEASE CLOSE ");
     lcd.setCursor(0,1);
-    lcd.print("Please close valve!");
+    lcd.print("   VALVE  ");
     delay(1000);
   }
   else
