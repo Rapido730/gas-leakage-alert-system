@@ -16,7 +16,7 @@ pinMode(led_green,OUTPUT);
 pinMode(buzzer,OUTPUT);
 pinMode(gas_sensor,INPUT);
 Serial.begin(9600);
-lcd.begin(24,4);
+lcd.begin(16,2);
 }
 
 void loop()
